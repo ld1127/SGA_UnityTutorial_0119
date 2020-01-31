@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7BA69C84-9D9B-B0B3-7551-A488699E7638}</ProjectGuid>
+    <ProjectGuid>{4E772B34-D50E-3E63-6283-4FCF39C31683}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,22 +60,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Script\CubeRotationModule.cs" />
-    <Compile Include="Assets\_Script\RotateModule.cs" />
+    <Compile Include="Assets\_Script\Legacy\CubeRotationModule.cs" />
+    <Compile Include="Assets\_Script\Legacy\RotateModule.cs" />
+    <Compile Include="Assets\_Script\RotateManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -279,13 +280,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/OneDrive/프로그래밍/SGA/Tutorial_01_BallsAdventure/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
