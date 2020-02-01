@@ -52,6 +52,9 @@
     <UnityVersion>2018.4.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -60,23 +63,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Script\Legacy\CubeRotationModule.cs" />
-    <Compile Include="Assets\_Script\Legacy\RotateModule.cs" />
-    <Compile Include="Assets\_Script\RotateManager.cs" />
+    <Compile Include="Assets\_Script\Platformer\EnemyModule.cs" />
+    <Compile Include="Assets\_Script\Platformer\EnmeyManager.cs" />
+    <Compile Include="Assets\_Script\Platformer\PlayerMove.cs" />
+    <Compile Include="Assets\_Script\Space\CameraMove.cs" />
+    <Compile Include="Assets\_Script\Space\CubeRotationModule.cs" />
+    <Compile Include="Assets\_Script\Space\RotateManager.cs" />
+    <Compile Include="Assets\_Script\Space\RotateModule.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -280,13 +287,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/github/SGA_BackUp/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Git/SGA_UnityTutorial_0119/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
